@@ -1,0 +1,242 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(C:/Users/jeffe/atividade1_Jefferson_Nunes/img/1.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: black;
+	text-align: center;
+	border-radius: 80px 0px 80px 0px;
+	opacity: 0.8;
+}
+
+.box input[type="text"],.box input[type="password"]{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: black;
+	border: 1.5px solid blue;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	transition: 0.39s;
+	font-size: 14px;
+	border-radius: 30px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width: 280px;
+	border-color: #00FFFF;
+}
+
+.box input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	border: 1.5px solid blue;
+	padding: 14px 40px;
+	outline: none;
+	transition: 0.39s;
+	font-size: 14px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+	background: #00BFFF;
+}
+
+.box h5{
+	color: white;
+}
+
+button.btn{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	border: 1.5px solid blue;
+	padding: 14px 40px;
+	outline: none;
+	transition: 0.39s;
+	font-size: 14px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+button.btn:hover{
+	background: #1E90FF;
+}
+
+
+
+
+
+
+* {
+ margin: 0;
+ padding: 0;
+ }
+
+/*Estilizando a nav da classe menu */
+ .menu {
+ width: 100%;
+ height: 50px;
+ background-color: #222;
+ font-family: Arial;
+ }
+
+/*Estilizando as listas */
+ .menu ul {
+ list-style: none;
+ position: relative;
+ }
+
+.menu ul li {
+ width: 150px;
+ float: left;
+ }
+
+.menu a {
+ padding: 15px;
+ display: block;
+ text-decoration: none;
+ text-align: center;
+ background-color: #222;
+ color: #fff;
+ }
+
+.menu ul ul {
+ position: absolute;
+ visibility: hidden;
+ }
+
+.menu ul li:hover ul {
+ visibility: visible;
+ }
+
+.menu a:hover {
+ background-color: #f4f4f4;
+ color: #555;
+ }
+
+.menu ul ul li {
+ float: none;
+ border-bottom: solid 1px #ccc;
+ }
+
+.menu ul ul li a {
+ background-color: #069;
+ }
+
+/*Criando o label */
+ label[for=”bt_menu”]{
+ padding: 5px;
+ background-color: #222;
+ color: #fff;
+ font-family: Arial;
+ text-align: center;
+ font-size: 30px;
+ cursor: pointer;
+ height: 50px;
+ }
+
+#bt_menu {
+ display: none;
+ }
+
+label[for=”bt_menu”]{
+ display: none;
+ }
+
+/*Deixando o Menu Responsivo */
+@media(max-width: 800px) {
+label[for=”bt_menu”] {
+ display: block;
+ }
+  
+#bt_menu:checked ~ .menu{
+ margin-left: 0;
+ }
+  
+.menu{
+ margin-top: 5px;
+ margin-left: -100%;
+ transition: all .4s;
+ }
+  
+.menu ul li {
+ width: 100%;
+ float: none;
+ }
+  
+.menu ul ul {
+ position: static;
+ overflow: hidden;
+ max-height: 0;
+ transition: all 4s;
+ }
+  
+.menu ul li:hover ul {
+ height: auto;
+ max-height: 200px;
+ }
+  
+ }
+
+
+img.g1{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#estext{
+	 margin: auto;
+	width: 1100px;
+	height: 140px;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	border-radius: 20px;
+	border: 3px solid #00BFFF;
+}
+
+h1.corh1{
+	color: white;
+}
+
+img.imgt{
+	border-radius: 10%;
+}
+
+.h5{
+	font-size: 4%;
+}
